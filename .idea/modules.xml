@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/NBProject.iml" filepath="$PROJECT_DIR$/NBProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/suanfademo/suanfademo.iml" filepath="$PROJECT_DIR$/suanfademo/suanfademo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weiXinPay/weiXinPay.iml" filepath="$PROJECT_DIR$/weiXinPay/weiXinPay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zfbpaydemo/zfbpaydemo.iml" filepath="$PROJECT_DIR$/zfbpaydemo/zfbpaydemo.iml" />
+    </modules>
+  </component>
+</project>

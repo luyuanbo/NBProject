@@ -1,0 +1,2 @@
+include ':app', ':zfbpaydemo', ':suanfademo'
+include ':weiXinPay'

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lus.suanfademo.MainActivity">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/meditText"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_marginLeft="20dp"
+            android:id="@+id/meditText2"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/nBtn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="杨辉算法"/>
+        <Button
+            android:id="@+id/nBtn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="斐波那契数列"/>
+        <Button
+            android:id="@+id/nBtn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="递归"/>
+        <Button
+            android:id="@+id/nBtn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="二维数组"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/nBtn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="查找字符"/>
+        <Button
+            android:id="@+id/nBtn6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="兔子"/>
+        <Button
+            android:id="@+id/nBtn7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="无重复"/>
+        <Button
+            android:id="@+id/nBtn8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1-20阶乘和"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/nBtn9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="回文数"/>
+        <Button
+            android:id="@+id/nBtn10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="字符串次数"/>
+        <Button
+            android:id="@+id/nBtn11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="开始报数"/>
+        <Button
+            android:id="@+id/nBtn12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100之内素数"/>
+    </LinearLayout>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/mtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</ScrollView>
+
+
+</LinearLayout>
